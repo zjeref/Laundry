@@ -1,3 +1,7 @@
+p{
+  line-height: 2;
+}
+
 .navbar{
     padding: 0px 40px;
     border: 0px;
@@ -21,7 +25,7 @@
     border-radius: 28px;
     background-color: #6785ff;
     color: white;
-}	
+}
 .btn2{
     font-size: 20px;
     color:#6785ff;
@@ -53,8 +57,13 @@
     left: 800px;
 }
 .container-process{
-    padding-top:20px;
-    text-align:center;
+  padding-top: 100px;
+    text-align: center;
+}
+.container-service{
+  padding: 120px 22%;
+  text-align:center;
+
 }
 .img {
     position: relative;
@@ -79,4 +88,31 @@
 }
 .home-text2{
     font-size:60rem;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.rec_img{
+  padding: 0px 0px;
+  height: 378px;
+}
+
+.container-service h3{
+  padding: 60px 0px;
+}
+
+.container-callservice{
+  padding: 50px 18%;
+}
+.content{
+  background-color: #28527a;
+  padding: 20px 120px;
+}
+.btn4{
+  margin-left: 290px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+  padding: 0px 20px 10px;
 }
