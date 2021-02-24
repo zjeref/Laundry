@@ -1,118 +1,129 @@
 p{
-  line-height: 2;
-}
-
-.navbar{
-    padding: 0px 40px;
-    border: 0px;
-}
-.nav-item{
-    font-family: "Muli",sans-serif;
-    color: #0d2d3e;
-    font-weight: 700;
-    padding: 33px 21px;
-    display: block;
-    font-size: 16px;
-    text-transform: capitalize;
-}
-@media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{ color:#6785ff;  }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; color: #6785ff; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}
-.btn1{
-    border-radius: 28px;
-    background-color: #6785ff;
-    color: white;
-}
-.btn2{
-    font-size: 20px;
-    color:#6785ff;
-}
-.footer-padding{
-    padding: 0px 50px;
-
-}
-.btn3 {
-    border-radius: 25px;
-    background-color: #6785ff;
-    margin-left: 100px;
-
-}
-
-.info h2 {
-    color: white;
-}
-
-.info p {
-    color: white;
-    font-size: 1.2rem;
-}
-
-.info {
-    width: 500px;
-    position: absolute;
-    bottom: 200px;
-    left: 800px;
-}
-.container-process{
-  padding-top: 100px;
+    line-height: 2;
+  }
+  
+  .navbar{
+      padding: 0px 40px;
+      border: 0px;
+  }
+  .nav-item{
+      font-family: "Muli",sans-serif;
+      color: #0d2d3e;
+      font-weight: 700;
+      padding: 33px 21px;
+      display: block;
+      font-size: 16px;
+      text-transform: capitalize;
+  }
+  @media all and (min-width: 992px) {
+      .navbar .nav-item .dropdown-menu{ display: none; }
+      .navbar .nav-item:hover .nav-link{ color:#6785ff;  }
+      .navbar .nav-item:hover .dropdown-menu{ display: block; color: #6785ff; }
+      .navbar .nav-item .dropdown-menu{ margin-top:0; }
+  }
+  .btn1{
+      border-radius: 28px;
+      background-color: #6785ff;
+      color: white;
+      margin-top: 20px;
+  }
+  .btn2{
+      font-size: 20px;
+      color:#6785ff;
+  }
+  .footer-padding{
+      padding: 0px 50px;
+  
+  }
+  .btn3 {
+      border-radius: 25px;
+      background-color: #6785ff;
+  }
+  
+  .info h2 {
+      color: white;
+  }
+  
+  .info p {
+      color: white;
+      font-size: 1.2rem;
+  }
+  
+  .info {
+    padding-top: 250px;
     text-align: center;
-}
-.container-service{
-  padding: 120px 22%;
-  text-align:center;
+  }
+  .container-process{
+    padding-top: 100px;
+      text-align: center;
+  }
+  .container-service{
+    padding: 120px 22%;
+    text-align:center;
+  
+  }
+  .img {
+      position: relative;
+      width: 641px;
+      height: 641px;
+      background-image: url('https://images.unsplash.com/photo-1445205170230-053b83016050?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80%27')
+  }
+  .element{
+      background-color:#c9d4ff;
+      border-radius: 25px;
+      padding:4px 12px;
+      color:#6785ff;
+  }
+  .container-process h2{
+      padding-top:20px
+  }
+  .footer-text{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .home-text{
+      font-size:3rem;
+  }
+  .home-text2{
+      font-size:60rem;
+  }
+  img{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .rec_img{
+    padding: 0px 0px;
+    height: 500px;
+  }
+  
+  .container-service h2{
+    padding: 40px 0px;
+  }
+  
+  .container-callservice{
+    padding: 50px 18%;
+  }
+  .content{
+    background-color: #28527a;
+    padding: 20px 120px;
+  }
+  .btn4{
+    margin-left: 290px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding: 0px 20px 10px;
+  }
+  input[type='text']{
+    border: none;
+    border-bottom: 2px solid;
+  }
+  .btnmodal{
+    
+  }
+  .picimg{
+    text-align: center;
+    padding: 100px 50px 0px 50px;
+    background-image: url("offers2.webp");
 
-}
-.img {
-    position: relative;
-    width: 641px;
-    height: 641px;
-    background-image: url('https://images.unsplash.com/photo-1445205170230-053b83016050?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80%27')
-}
-.element{
-    background-color:#c9d4ff;
-    border-radius: 25px;
-    padding:4px 12px;
-    color:#6785ff;
-}
-.container-process h2{
-    padding-top:20px
-}
-.footer-text{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.home-text{
-    font-size:3rem;
-}
-.home-text2{
-    font-size:60rem;
-}
-img{
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.rec_img{
-  padding: 0px 0px;
-  height: 378px;
-}
-
-.container-service h3{
-  padding: 60px 0px;
-}
-
-.container-callservice{
-  padding: 50px 18%;
-}
-.content{
-  background-color: #28527a;
-  padding: 20px 120px;
-}
-.btn4{
-  margin-left: 290px;
-  margin-top: 20px;
-  font-size: 1.5rem;
-  padding: 0px 20px 10px;
-}
+  }
+  
